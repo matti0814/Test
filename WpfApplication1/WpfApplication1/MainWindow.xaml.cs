@@ -33,9 +33,7 @@ namespace WpfApplication1
 
         private void Kebabtallrik()
         {
-            Class1 Kebb = new Class1();
-
-            Kebb.LEFFE(CompareNumbers(12, 13));
+            MessageBox.Show("nej");
         }
 
         private bool CompareNumbers(int x, int y)
