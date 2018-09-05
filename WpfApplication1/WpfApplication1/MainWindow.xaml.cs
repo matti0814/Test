@@ -27,7 +27,31 @@ namespace WpfApplication1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Leffe");
+            MessageBox.Show("Leffe");            
+            Kebabtallrik();
         }
+
+        private void Kebabtallrik()
+        {
+            Class1 Kebb = new Class1();
+
+            Kebb.LEFFE(CompareNumbers(12, 13));
+        }
+
+        private bool CompareNumbers(int x, int y)
+        {
+            if (x == y)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+
+
+
     }
 }
